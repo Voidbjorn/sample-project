@@ -1,0 +1,10 @@
+{
+    "name": "whiteaway/sample-project",
+    "authors": [
+        {
+            "name": "Morten D. Hansen",
+            "email": "myr@whiteaway.com"
+        }
+    ],
+    "require": {}
+}
