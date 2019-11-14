@@ -6,4 +6,4 @@ require_once __DIR__ . "/../vendor/autoload.php";
 
 $movierater = new Movierater();
 
-echo $movierater->getStars('SomeMovie');
+var_dump($movierater->getStars('SomeMovie'));
