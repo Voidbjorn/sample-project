@@ -4,17 +4,16 @@
 namespace Classes;
 
 
-class Movierater
+class Movierater implements IMovierater
 {
-    public function getStars($movie): array
+    public function getStars($movie): MovieRating
     {
-        return [
-            "title" => "The Godfather",
-            "sound" => 5,
-            "acting" => 5,
-            "effects" => 5,
-            "music" => 4,
-            "total" => 4
-        ];
+        ///
+        /// This is a method stub!
+        /// TODO: Implement this method and remove the code below:
+        ///
+        $movieRating = new MovieRating();
+        $movieRating->title = $movie;
+        return $movieRating;
     }
 }
