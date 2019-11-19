@@ -17,12 +17,12 @@ Now they want a script which presents the movies final and overall valid score f
 |effects|0.45|
 |music|0.05|
 
-When running the index.php file, it should be possible to input a movie's title, and get score and the calculated total score out!
+When running the index.php file, it should be possible to input a movie's title, and get scores with the calculated total.
 
 The scores are supplied in the resources folder in either JSON or CSV format.
 
 The task is therefore, implement the functionality for this in the project, using the clients supplied files. 
-The script has already been created, where public/index.php should execute and output, and classes/Movierater.php can be used for the logic if you wish. 
+A starting point for the solution has already been created, where public/index.php should execute and output, and classes/Movierater.php can be used for the logic if you wish. 
 
 It does not matter if the script is run in the terminal or the browser. The frontend team will figure out how to present the result.
 
