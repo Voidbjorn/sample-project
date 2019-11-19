@@ -31,7 +31,7 @@ It does not matter if the script is run in the terminal or the browser. The fron
 As a user, I want to retrieve ratings for a movie, including the total calculated score, so that i can use the data to sort movies.
  
 
-##Running the script
+## Running the script
 
 If PHP is installed locally, you can simply install with composer and execute the index.php
 
