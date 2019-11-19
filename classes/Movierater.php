@@ -4,16 +4,13 @@
 namespace Classes;
 
 
-class Movierater implements IMovierater
+class Movierater
 {
-    public function getStars($movie): MovieRating
+    public function getStars($movie): array
     {
-        ///
-        /// This is a method stub!
-        /// TODO: Implement this method and remove the code below:
-        ///
-        $movieRating = new MovieRating();
-        $movieRating->title = $movie;
-        return $movieRating;
+        //
+        // TODO: Implement this method
+        //
+        return [];
     }
 }

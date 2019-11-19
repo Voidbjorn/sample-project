@@ -24,17 +24,23 @@ The scores are supplied in the resources folder in either JSON or CSV format.
 The task is therefore, implement the functionality for this in the project, using the clients supplied files. 
 The script has already been created, where public/index.php should execute and output, and classes/Movierater.php can be used for the logic if you wish. 
 
-Is does not matter if the script is run in the terminal or the browser. Frontend team will figure out how to present the result.
+It does not matter if the script is run in the terminal or the browser. The frontend team will figure out how to present the result.
+
+### User story
+
+As a user, I want to retrieve ratings for a movie, including the total calculated score, so that i can use the data to sort movies.
+ 
 
 ##Running the script
+
+If PHP is installed locally, you can simply install with composer and execute the index.php
+
 First, install: 
 Run  
 `$ composer install`  
 In the projects root
 
-If PHP is installed locally, you can simple execute the index.php
-
-`$ php public/index.php`
+Then run: `$ php public/index.php`
 
 A testsuite has been initialized as well, can be run by executing:
 `$ vendor/bin/phpunit`
@@ -46,3 +52,4 @@ $ docker build -t sample-project .
 $ docker run --rm -v ${PWD}:/usr/src/movierater sample-project
 $ docker run --rm -v ${PWD}:/usr/src/movierater sample-project vendor/bin/phpunit
 ```
+
